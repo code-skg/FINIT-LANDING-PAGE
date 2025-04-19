@@ -5,7 +5,7 @@ console.log(toggle);
 
 
 toggle.addEventListener("click" , (e) => {
-  menu.classList.add("active");
+  menu.classList.toggle("active");
 })
 
 document.addEventListener("click", (e)=>{
